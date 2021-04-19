@@ -1,0 +1,33 @@
+{
+  "extends": "./tsconfig.extend.json",
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "esnext.intl",
+      "es2017.intl",
+      "es2018.intl"
+    ],
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react",
+    "suppressImplicitAnyIndexErrors": true
+    // "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": [
+    "src"
+  ],
+  "plugins": []
+}
